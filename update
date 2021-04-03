@@ -6,4 +6,5 @@ cat >>list.yaml <<EOF
 
 shb-cool: https://github.com/shebang/base16-shb-cool-scheme
 shb-ice: https://github.com/shebang/base16-shb-ice-scheme
+nautilus: https://github.com/shebang/base16-nautilus-theme
 EOF
