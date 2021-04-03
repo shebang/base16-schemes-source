@@ -1,0 +1,9 @@
+#!/bin/sh
+rm -f list.yaml
+wget https://raw.githubusercontent.com/chriskempson/base16-schemes-source/master/list.yaml
+
+cat >>list.yaml <<EOF
+
+shb-cool: https://github.com/shebang/base16-shb-cool-scheme
+shb-ice: https://github.com/shebang/base16-shb-ice-scheme
+EOF
