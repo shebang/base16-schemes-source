@@ -78,8 +78,15 @@ unclaimed: https://github.com/chriskempson/base16-unclaimed-schemes
 # is based on another color scheme and doesn't quite match. There was a
 # fork to improve the colors, so that's what we're using. If the original
 # repo ever gets updated, we can switch back to that.
-nord: https://github.com/spejamchr/base16-nord-scheme
+# nord: https://github.com/spejamchr/base16-nord-scheme
+nord: https://github.com/shebang/base16-nord-scheme
 
 shb-cool: https://github.com/shebang/base16-shb-cool-scheme
 shb-ice: https://github.com/shebang/base16-shb-ice-scheme
 nautilus: https://github.com/shebang/base16-nautilus-theme
+harmonic-shb: https://github.com/shebang/base16-harmonic-scheme
+gruvbox-shb: https://github.com/shebang/base16-gruvbox-scheme
+oceanicnext-shb: https://github.com/shebang/base16-oceanicnext-scheme
+mojo-working: https://github.com/shebang/base16-mojo-working-theme
+
+mojo-working: https://github.com/shebang/base16-mojo-working-theme
