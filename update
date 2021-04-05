@@ -2,9 +2,15 @@
 rm -f list.yaml
 wget https://raw.githubusercontent.com/chriskempson/base16-schemes-source/master/list.yaml
 
+gsed -i 's+spejamchr/base16-nord-scheme+shebang/base16-nord-scheme+g' list.yaml
 cat >>list.yaml <<EOF
 
 shb-cool: https://github.com/shebang/base16-shb-cool-scheme
 shb-ice: https://github.com/shebang/base16-shb-ice-scheme
-nautilus: https://github.com/shebang/base16-nautilus-theme
+nautilus: https://github.com/shebang/base16-nautilus-scheme
+harmonic-shb: https://github.com/shebang/base16-harmonic-shb-scheme
+gruvbox-shb: https://github.com/shebang/base16-gruvbox-shb-scheme
+oceanicnext-shb: https://github.com/shebang/base16-oceanicnext-shb-scheme
+mojo-working: https://github.com/shebang/base16-mojo-working-scheme
+
 EOF
